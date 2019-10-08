@@ -15,7 +15,8 @@ Put the iris.key in the same directory.
 Regarding the Iris docker image, you can either download from Intersystems or use a docker hub repository:
 
 - ### Download an image from Intersystems and load the image
-    Download the version you need from Intersystems and use **docker load** command to load the image. In this case I downloaded the file "iris-2019.3.0.302.0-docker.tar.gz"
+    Download the version you need from Intersystems and use **docker load** command to load the image. You will need to have access to wrc.intersystems.com, then go to distributions and find the version you need. I recommend to download 2019.3 and later.
+    When I was writing this the version "iris-2019.3.0.302.0-docker.tar.gz" was under the preview tag (where you can also get a preview License key)
 
     ```
     docker load -i iris-2019.3.0.302.0-docker.tar.gz

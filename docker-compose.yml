@@ -9,7 +9,8 @@ services:
   mirrorA:
     container_name: mirrorA
     hostname: mirrorA
-    image: docker.iscinternal.com/intersystems/iris:2019.3.0-latest
+    #image: docker.iscinternal.com/intersystems/iris:2019.3.0-latest
+    image: intersystems/iris:2019.3.0.302.0
     volumes:
       - ./irisA:/ISC
       - ./:/ISC/utiles
@@ -25,7 +26,9 @@ services:
   mirrorB:
     container_name: mirrorB
     hostname: mirrorB
-    image: docker.iscinternal.com/intersystems/iris:2019.3.0-latest
+    #image: docker.iscinternal.com/intersystems/iris:2019.3.0-latest
+    image: intersystems/iris:2019.3.0.302.0
+    
     volumes:
       - ./irisB:/ISC
       - ./:/ISC/utiles
