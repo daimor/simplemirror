@@ -50,7 +50,9 @@ docker exec -it mirrorA bash
 - Connect to SMP mirror B
 http://127.0.0.1:9093/csp/sys/UtilHome.csp
 
-
+**The first time you login you will need to use default credentials: 
+  - Username: SuperUser
+  - Password: SYS
 
 ## To clean and try a different version
 
