@@ -10,7 +10,7 @@ It will create 2 folders (mirrorA and mirrorB) with the Iris installation files 
 
 ## How to 
 
-Put the iris.key in the same directory. 
+Put the iris.key license in the same directory.
 
 Regarding the Iris docker image, you can either download from Intersystems or use a docker hub repository:
 
